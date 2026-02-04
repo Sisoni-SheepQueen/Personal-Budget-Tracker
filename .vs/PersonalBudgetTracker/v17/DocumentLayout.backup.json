@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|solutionrelative:expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|c:\\users\\sisoni\\source\\repos\\personalbudgettracker\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|C:\\Users\\Sisoni\\source\\repos\\PersonalBudgetTracker\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|solutionrelative:expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|c:\\users\\sisoni\\source\\repos\\personalbudgettracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|C:\\Users\\Sisoni\\source\\repos\\PersonalBudgetTracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF0767DA-49D6-47B5-8FD7-6E16296B30A4}|PersonalBudgetTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ExpenseManager.cs",
               "ToolTip": "C:\\Users\\Sisoni\\source\\repos\\PersonalBudgetTracker\\ExpenseManager.cs",
               "RelativeToolTip": "ExpenseManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T10:47:10.243Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Expense.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:46:26.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T10:46:26.023Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:31:09.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T10:31:09.523Z"
             }
           ]
         }
