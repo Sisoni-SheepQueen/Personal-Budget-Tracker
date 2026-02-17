@@ -5,6 +5,8 @@ class Program
 {
     static void Main()
     {
+
+        AuthManager.Login();
         ExpenseManager manager = new ExpenseManager();
         manager.Expenses.AddRange(FileManager.Load());
 
