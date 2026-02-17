@@ -1,0 +1,88 @@
+🔎 3️⃣ SEARCH FEATURE (Student C)
+
+We’ll implement:
+
+Search by name
+
+Search by status
+
+Assuming you have a class like:
+
+public class BudgetItem
+{
+    public string Name { get; set; }
+    public double Amount { get; set; }
+    public string Status { get; set; }
+}
+
+✅ Add to your logic manager (or wherever list is stored)
+public static List<BudgetItem> SearchByName(List<BudgetItem> items, string searchTerm)
+{
+    return items
+        .Where(i => i.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+        .ToList();
+}
+
+public static List<BudgetItem> SearchByStatus(List<BudgetItem> items, string status)
+{
+    return items
+        .Where(i => i.Status.Equals(status, StringComparison.OrdinalIgnoreCase))
+        .ToList();
+}
+
+
+Make sure you have:
+
+using System.Linq;
+
+✅ Add UI Menu Option
+
+Inside your main menu:
+
+5. Search
+
+✅ Add Search Menu
+public static void ShowSearchMenu(List<BudgetItem> items)
+{
+    Console.Clear();
+    Console.WriteLine("==== SEARCH ====");
+    Console.WriteLine("1. Search by Name");
+    Console.WriteLine("2. Search by Status");
+
+    string choice = Console.ReadLine();
+
+    if (choice == "1")
+    {
+        Console.Write("Enter name: ");
+        string name = Console.ReadLine();
+
+        var results = SearchByName(items, name);
+        DisplayResults(results);
+    }
+    else if (choice == "2")
+    {
+        Console.Write("Enter status: ");
+        string status = Console.ReadLine();
+
+        var results = SearchByStatus(items, status);
+        DisplayResults(results);
+    }
+
+    Console.WriteLine("Press any key...");
+    Console.ReadKey();
+}
+
+✅ Display Results Helper
+private static void DisplayResults(List<BudgetItem> results)
+{
+    if (results.Count == 0)
+    {
+        Console.WriteLine("No results found.");
+        return;
+    }
+
+    foreach (var item in results)
+    {
+        Console.WriteLine($"{item.Name} | {item.Amount} | {item.Status}");
+    }
+}

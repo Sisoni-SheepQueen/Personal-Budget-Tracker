@@ -1,0 +1,34 @@
+👤 2️⃣ DIFFERENT USERS WITH SEPARATE FILES (Student B)
+🎯 Goal
+
+Each user gets their own file:
+
+data_John.txt
+data_Maria.txt
+
+✅ Modify FileManager.cs
+Add helper method:
+private static string GetUserFilePath()
+{
+    return $"data_{AuthManager.CurrentUser}.txt";
+}
+
+🔁 Replace ALL hardcoded file paths like:
+string path = "data.txt";
+
+
+WITH:
+
+string path = GetUserFilePath();
+
+✅ Optional: Ensure file exists
+
+Inside your load method:
+
+if (!File.Exists(path))
+{
+    File.Create(path).Close();
+}
+
+
+Now each user automatically gets their own file.
